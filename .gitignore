@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+
+# build
+build
+
+# packages
+node_modules
+
+# environments
+.env
+.vscode
+main-package.json

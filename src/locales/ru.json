@@ -1,0 +1,7 @@
+{
+    "scenes": {
+        "start": {
+            "hello": "hello {{username}}"
+        }
+    }
+}

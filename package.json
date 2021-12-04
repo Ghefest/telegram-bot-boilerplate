@@ -1,0 +1,32 @@
+{
+  "name": "telegram-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "Starter kit for your telegram bot",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.mjs",
+    "start:dev": "nodemon"
+  },
+  "keywords": [
+    "Bot",
+    "Telegram",
+    "telegraf",
+    "i18n",
+    "NodeJs",
+    "ESNEXT",
+    "Pretty logger"
+  ],
+  "author": "Ghefest",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@esindger/telegraf-i18n": "^0.5.5",
+    "@ptkdev/logger": "^1.8.0",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "telegraf": "^4.4.2"
+  }
+}
